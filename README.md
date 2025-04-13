@@ -16,9 +16,9 @@ Ce dépôt contient le code source permettant de reproduire l'article *SqueezeNe
     pip install -r requirements.txt
 
 2. Lancer l’entraînement :
-    python train_squeezenet.py
+    python squeezenet.py
 
-3. Pour visualiser les courbes d’apprentissage avec TensorBoard, lancer la commande :
+3. Pour visualiser les courbes d’apprentissage avec TensorBoard:
     tensorboard --logdir=tensorboard_logs/
 
 Auteur :
